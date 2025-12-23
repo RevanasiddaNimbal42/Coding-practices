@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boomi_website</title>
+    <meta name="description" content="The Boomi Website for farmers, 
+    In this website farmer can check their detail of farm.">
+    <link rel="stylesheet" href="boomi.css">
+</head>
+<style>
+   
+</style>
+
+<body>
+    <form action="backend.php" method="post">
+    <b>
+        <h4>Boomi Websites: </h4>
+    </b>
+    <nav>This is the boomi website in which you can search your documents related to farm.</nav>
+    <div id="image"><img width="195" height="100" src="farm_Image.jpg" alt="form image-1">
+        <img width="195" height="100" src="farmer.jpg" alt="farm imag-2">
+    </div>
+
+    <div class="data ">
+        Select servey number:
+
+    </div>
+    <div class="value">
+        <label for="myDistrict">Dist:</label>
+        <select name="district" id="myDistrict" onchange="updateTaluk()" requiered>
+            <option value="" disabled selected>select your district</option>
+            <option value="dist1">Vijayapur</option>
+            <option value="dist2">Kalaburagi</option>
+            <option value="dist3">Hospete</option>
+            <option value="dist4">Belagavi</option>
+
+        </select>
+
+        <label for="mySubdisrict">Taluk:</label>
+        <select name="subdistrict" id="mySudistrict" onchange="updateHobli()" requiered>
+            <option value="" disabled selected>select your Taluk</option>
+            <option value="taluk1">Indi</option>
+            <option value="taluk2">Sindagi</option>
+            <option value="taluk3">Abzalpure</option>
+            <option value="taluk4">Chadachana</option>
+            <option value="taluk5">Gevragi</option>
+        </select>
+
+    </div>
+    <br>
+    <div class="value">
+        <label for="myHobli">Hobli: </label>
+        <select name="hobli" id="myHobli" onchange="updatevillage()" requiered>
+            <option value="" disabled selected>Select Hobli</option>
+            <option value="hobli1">Balloli</option>
+            <option value="hobli2">Nagatan</option>
+            <option value="hobli3">Indi</option>
+        </select>
+        <label for="myVillage">Village:</label>
+        <select name="village" id="myVillage" onchange="updateserveyNuber()" requiered>
+            <option value="" disabled selected>Select Village</option>
+            <option value="village1">Atharga</option>
+            <option value="village2">Rajanala</option>
+            <option value="village3">Ramatirta</option>
+            <option value="village4">Tadavalaga</option>
+        </select>
+    </div>
+    <br>
+    <div class="value">
+        <label for="myServeyno">Serveyno:</label>
+        <input type="number" id="myServeyno" placeholder="Enter servey number" requiered>
+
+    </div>
+    <br>
+    <div class="value">
+        <input type="submit" value="    Go    ">
+        <input type="reset" value=" Reset ">
+    </div>
+ </form>
+</body>
+
+</html>
