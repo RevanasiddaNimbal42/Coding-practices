@@ -1,0 +1,16 @@
+[
+  { "id": 1, "name": "Revanasidda", "LastName": "Nimbal" },
+  { "id": 2, "name": "Karthik", "LastName": "B v" },
+  { "id": 3, "name": "Nikhil", "LastName": "sai" },
+  { "id": 6, "name": "revana" },
+  [
+    { "id": 6, "name": "revana" },
+    { "id": 7, "name": "ravana", "class": "cse" }
+  ],
+  [
+    { "id": 6, "name": "revana" },
+    { "id": 7, "name": "ravana", "class": "cse" },
+    { "id": 8, "name": "tarun", "class": "EEE" }
+  ],
+  { "id": 9, "name": "Kiran", "class": "BA,B.com" }
+]
