@@ -1,0 +1,15 @@
+.dark{
+    background-color: rgb(8, 7, 7);
+    color:rgb(247, 243, 243);
+
+}
+
+.light{
+    background-color: white;
+    color:black;
+}
+button{
+    background-color:rgb(242, 190, 92);
+    color:blue;
+    cursor: pointer;
+}

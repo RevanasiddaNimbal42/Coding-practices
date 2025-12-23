@@ -1,0 +1,16 @@
+#btm1 {
+    position :relative;
+  background-color:aqua;
+  cursor: pointer;
+}
+#btm1:hover{
+    background-color: blue;
+}
+#box{
+    background-color:aqua;
+    border:2px solid blue;
+    padding:20px;
+    width:12px;
+    height:23px;
+    margin-top:23px;
+}

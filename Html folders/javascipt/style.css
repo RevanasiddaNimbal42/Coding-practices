@@ -1,0 +1,15 @@
+h2{
+    color-interpolation-filters: linearRGB;
+    color:aqua;
+    background-color: rgb(255, 94, 0);
+}
+p{
+    color:rgb(249, 151, 5);
+}
+.color{
+    
+    border:1px solid black;
+    padding : 12px;
+    background: linear-gradient(to right,rgb(238, 107, 107), rgb(44, 43, 43) , rgb(64, 64, 232));
+    
+}
