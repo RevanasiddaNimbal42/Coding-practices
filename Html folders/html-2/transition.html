@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition property</title>
+</head>
+<style>
+    .container{
+        border:2px solid rgb(237, 90, 237);
+        width:250px;
+        height:180px;
+        background-color: rgba(147, 228, 201, 0.794);
+        
+    }
+    .box{
+        border:2px solid red;
+        width:23px ;
+        height:23px;
+        margin:2px;
+        background-color: rgb(4, 249, 65);
+        padding:12px;
+        transition-property: background-color,transform  ;
+        transition-timing-function:ease-in-out;
+        transition-duration: 3s;
+        transition-delay: 1s;
+        
+    }
+    .translate{
+      
+        transform: translateX(12vw) translateY(8vh) scale(1) skew(23deg);
+          background-color: beige;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box translate"></div>
+    </div>
+
+</body>
+</html>

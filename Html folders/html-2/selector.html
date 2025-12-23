@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* .boxes *{
+            border:2px solid orange;
+            background-color:aquamarine;
+        }
+        .boxes :first-child{
+            background-color: blue;
+        } */
+         /* .box:first-child{
+            background-color: red;
+         }
+         .box:last-child{
+            color:orange;
+         }
+         .box:nth-child(2){
+            color:aqua;
+         }
+         p,a,.box[king="raja"]{
+            background-color: rgb(106, 192, 115);
+         }
+         .box:nth-last-child(2){
+            color:rgb(127, 168, 255);
+         }
+         .box:nth-child(even){
+            background-color: black;
+         }
+         .box:nth-child(odd){
+            color:rgb(255, 0, 247);
+         }
+         .boxes::before{
+            content:"The nature is very nice" ;
+         }
+         .boxes::after{
+            content:"technology";
+         } */
+       ::selection{
+        background-color: rgb(196, 255, 196);
+        color:red;
+       }
+       .box[king="maharaja"]::first-line{
+        color:blueviolet;
+        font-size: 28px;
+        background-color: aqua;
+       }
+       .box[king="raja"]::first-letter{
+        color:black;
+        font-size: 20px;
+       }
+       input::placeholder{
+        font-size: 20px;
+        color:rgb(199, 73, 73);
+       }
+    
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div king="raja" class="box">This is the first box</div>
+        <div king="maharaja" class="box">This is the second box</div>
+        <div class="box">This is the third box</div>
+        <input type="text" placeholder="Enter your name">
+    </div>
+</body>
+</html>

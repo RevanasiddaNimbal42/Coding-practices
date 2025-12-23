@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout of website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            background-color: rgb(251, 251, 89);
+        }
+
+        nav {
+            margin: 1px;
+            padding: 14px;
+            width: 100vw;
+            border: 2px solid rgb(249, 157, 8);
+            background-color: blanchedalmond;
+        }
+
+        nav ul {
+            margin-left: 20px;
+            display: flex;
+            column-gap: 25px;
+            color: rgb(255, 132, 0)
+        }
+
+        li {
+            display: inline;
+            /* border:2px solid rgb(235, 241, 203); */
+            width: 80px;
+            height: 20px;
+            column-gap: 24px;
+
+        }
+        .box{
+            padding:23px;
+            margin-left:25px;
+            margin-top:3px;
+            width:40vw;
+            height:40vh;
+            display:flow-root;
+            float:left;
+            background-color: rgb(200, 245, 246);
+            border:2px solid rgb(0, 255, 247);
+
+        }
+        .foot{
+           border:2px solid white;
+           padding:30px;
+           width:1024px;
+           height: fit-content;
+           align-self:end;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class><a>Home</a></li>
+            <li><a>About us</a></li>
+            <li><a>contact us</a></li>
+            <input type="search" name="searchBox" id="searchBox" placeholder="Search the items">
+            <li><a>login</a></li>
+            <li><a>logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <br>
+    <div class="foot">
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables in html</title>
+</head>
+<style>
+    :root{
+        --color:red;
+        --seccolor:white;
+        --tcolor:orange;
+    }
+    .code :nth-child(1){
+        background-color: var(--color);
+        color:var(--seccolor);
+        
+    }
+   .code{
+    color:var(--tcolor);
+    /* background-color: var(--seccolor); */
+   }
+</style>
+
+<body>
+    <nav class="code">
+        <div class="red">
+            this is the last function.
+        </div>
+        <div>
+            this is the first function.
+        </div>
+    </nav>
+</body>
+</html>

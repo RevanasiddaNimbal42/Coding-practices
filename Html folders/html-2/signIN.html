@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model signin Page</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .container {
+        /* margin: 3px 3px; */
+        position: relative;
+        left: 120px;
+        top: 23px;
+        padding: 20px;
+        width: 40vw;
+        height: 50vh;
+        border: 2px solid greenyellow;
+        background-color: rgba(227, 245, 154, 0.453);
+    }
+
+    .box {
+        margin: 0;
+        border: 2px solid yellow;
+        width: 20vw;
+        height: 50vh;
+        background-color: rgb(14, 240, 165);
+        /* transition-property: backgroundc-color, transform;
+        transition-duration: 3s;
+        transition-timing-function: cubic-bezier(0.42, 0, 0, 1.31);
+        transition-delay: 1s; */
+        /* display:inline-black; */
+        animation: Signinpage 3s ease-in 2s 3  alternate-reverse backwards ;
+        /* animation: Signinpage 5s ease-out 1; */
+        
+    }
+
+     @keyframes Signinpage {
+        
+            0%{background-color: red;
+                transform:translateX(0px);
+            }
+
+
+            /* transform: skewX(0.2deg); */
+             /* transform: translateY(120px);  */
+        
+
+        100% {
+            transform: translateX(265px);
+            background-color: white;
+        }
+    } 
+
+    /* .traslate {
+        transform: translateX(265px);
+        background-color: rgb(226, 13, 13);
+    } */
+</style>
+
+<body>
+    <div class="container">
+        <div class="box traslate"></div>
+    </div>
+</body>
+
+</html>

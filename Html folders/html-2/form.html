@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <h3>Scholarship form</h3>
+    <form action="backend.php" mrthod="post">
+        <b>
+            <label for="myFirstname">First Name: </label>
+            <div><input type="text" id="myFirstname" name="firstname" placeholder="Enter your first name" required></div>
+            <br>
+
+            <label for="myLastname">Last Name:</label>
+            <div><input type="text" id="myLastname" name="lastname" placeholder="Enter Your last name"required ></div>
+            <br>
+
+            <label for="myFathername">Father Name:</label>
+            <div><input type="text" id="myFathername" name="fathername"required></div>
+            <br>
+
+            <label for="myMothername">Mother Name:</label>
+            <div><input type="text" id="myMothername" name="mothername"required></div>
+            <br>
+
+            <label for="mydate">Date of birth:</label>
+            <div><input type="date" id="mydate" name="dob"required></div>
+            <br>
+
+            <label for="myNumber">Mobile No:</label>
+            <div><input type="number" id="myNumber" name="mobile"required></div>
+            <br>
+
+            <label for="myEmailid">Email Id:</label>
+            <div><input type="email" id="myEmailid" name="emailId"required></div>
+            <br>
+
+            <label>Gender: </label>
+            <div>
+                Male <input type="radio" name="gender" value="male"required>
+                Female <input type="radio" name="gender" value="female"required>
+                Other <input type="radio" name="gender" value="other"required>
+            </div>
+            <br>
+
+            <label for="rollno">Roll No:</label>
+            <div><input type="number" id="rollno" name="user_rollno"></div>
+            <br>
+
+            <label for="sslcmarks">SSLC Marks:</label>
+            <div><input type="number" id="sslcmarks" name="sslcmarks"required></div>
+            <br>
+
+            
+            <label for="myself"> Enter your self</label>
+            <div><textarea name="about_user" id="myself" breadth="12" height="83"></textarea></div>
+            <br>
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+            
+        </b>
+    </form>
+
+</body>
+
+</html>

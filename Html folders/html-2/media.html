@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media screen</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+
+    }
+   @media only screen and (max-width:355px){
+      body{
+        background-color:yellowgreen;
+
+     }
+     .boxes{
+        flex-direction:column ;
+     }
+     
+}
+.boxes{
+    margin:1px;
+    border:1px solid red;
+    display: flex;
+    
+}
+.box{
+        
+        margin:2px;
+        width:12vw;
+        height:13vh;
+        border:2px solid rgb(0, 255, 85);
+
+     }
+</style>
+<body>
+    <div>
+        This is the natural color in this page.
+    </div>
+   
+    <div class="boxes ">
+        <div  class="box">
+        box1
+        </div>
+        <div class="box">
+            box2
+        </div>
+        <div class="box">
+            box3
+        </div>
+    </div>
+</body>
+</html>
