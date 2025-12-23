@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* background-color: rgb(61, 61, 243); */
+    
+}
+body{
+    background-color: rgb(152, 238, 209);
+}
+
+h2 {
+    font-size: 2.5rem;
+    background-color: rgb(243, 201, 66);
+    line-height: 4rem;
+}
+
+img {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 3.1rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+img:hover{
+   transform: scale(1.05) ;
+}
+.choices {
+    display: flex;
+    position: relative;
+    gap: 42px;
+    top: 15px;
+    bottom: 12px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.score-bord {
+    position: relative;
+    top: 5rem;
+    display: flex;
+    gap: 4rem;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+}
+#you{
+    font-size:2.5rem;
+    color:black;
+}
+.mage-container{
+    position:relative;
+    top:8rem;
+    left:28rem;
+    font-size: 28px;
+    border:1px solid black;
+    width:25rem;
+    height:3rem;
+    line-height:3rem;
+    text-align: center;
+    justify-content: center;
+    cursor: default;
+    background:  linear-gradient(49deg, rgb(145, 145, 244), rgb(247, 141, 159),rgb(146, 223, 146), rgb(241, 177, 177), rgb(240, 240, 132), rgb(159, 242, 242));;
+
+}
+
